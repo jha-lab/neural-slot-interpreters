@@ -8,8 +8,20 @@
 
 This is the official repository for the paper [Neural Slot Interpreters: Grounding Object Semantics in Emergent Slot Representations](https://arxiv.org/abs/2403.07887).
 
+![NSI Architecture](nsi.png)
+
+
 ## Table of Contents
 
+- [Environment setup](#environment-setup)
+- [Building the CLEVRTex Schema](#building-the-clevrtex-schema)
+- [Model](#model)
+  - [ImageEncoder (DINO-based)](#imageencoder-dino-based)
+  - [ProgramEncoder](#programencoder)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Citation](#citation)
+- [License](#license)
 
 ## Environment setup
 
