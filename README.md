@@ -16,8 +16,8 @@ This is the official repository for the paper [Neural Slot Interpreters: Groundi
 - [Environment setup](#environment-setup)
 - [Building the CLEVRTex Schema](#building-the-clevrtex-schema)
 - [Model](#model)
-  - [ImageEncoder (DINO-based)](#imageencoder-dino-based)
-  - [ProgramEncoder](#programencoder)
+  - [Image Encoder](#imageencoder)
+  - [Schema Encoder](#schemaencoder)
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Citation](#citation)
@@ -64,7 +64,7 @@ Each image contains objects with properties including size, shape, material, and
 ## Model
 Our model consists of two main encoder components:
 
-### ImageEncoder (DINO-based)
+### Image Encoder
 
 The ImageEncoder (located in `models/dino_encoder.py`) processes images using a Vision Transformer (ViT) backbone with DINO pre-training:
 
